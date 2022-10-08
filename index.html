@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planeta Gamer - Resident Evil 2</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!--CSS Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--CSS Externo-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--FontAwsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color: #222;" id="corpo">
+    <nav class="navbar navbar-expand-md "><!--Início do menu-->
+        <!--Logo-->
+        <a href="index.html" class="navbar-brand">
+            <img src="img/logo.png" alt="Planeta Gamer">
+        </a>
+
+        <!--Menu Hambúrger-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <span class=""><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <!--Navegação-->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="videos.html" class="nav-link">Vídeos</a>
+                </li>
+            </ul>
+        </div>
+    </nav><!--Fim do menu-->
+
+    <!--<div id="fundo">
+
+    </div>Capa de fundo-->-
+
+    <section class="secao">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <span>Publicado: 08/10/2022 às 00:00</span>
+                    <img src="img/games-re2remake.jpg" alt="">
+                    <figcaption class="descricao-img">Reprodução: Capcom</figcaption>
+                    
+                    <h1>Resident Evil 2</h1>
+
+                    <p>
+                        A franquia Resident Evil foi criada pelo Shinji Mikami sendo uma das melhores de zumbis na minha opinião. Resident Evil 2 foi um grande sucesso lá em 1998 quando o mesmo saiu para o console Playstation 1, porém, recentemente em 2019, saiu um remake do original, com gráficos da nova geração e muito mais detalhado e mecânicas melhores, afinal, as tecnologias estão mais evoluidas do que a 24 anos atrás. Esse jogo é considerado por muitos um dos melhores da franquia e eu concordo, pois o jogo tem a mesma pegada do original de 1998, um game de sobrevivência e horror com um monte de zumbis. Para essa história, vou considerar a do original, pois no remake não teve tantas mudanças significativas.
+                    </p>
+
+                    <h2>Personagens</h2>
+
+                    <!--Leon-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                          Leon S. Kennedy
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-1">
+                        <div class="card card-body">
+                          <img src="img/leon-kennedy.jpg" alt="">
+
+                          <p>
+                            Leon Scott Kennedy é um policial novato da RPD, ele acabou se atrasando (salvando sua vida) para o seu primeiro dia de trabalho porque dormiu demais, a causa disso é que ele bebeu demais a noite anterior por ter terminado com a namorada, então ele vai para delegacia de polícia e lá está um caõs após o virus se espalhar por toda Raccon City. O desfecho está logo abaixo.
+                          </p>
+                        </div>
+                    </div>
+
+                    <!--Claire-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                          Claire Redfield
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-2">
+                        <div class="card card-body">
+                          <img src="img/claire-redfield.jpg" alt="">
+
+                          <p>
+                            Claire Redfield é a irmã mais nova de Chris Redfield e ela mesmo sendo uma civil comum, sabe manejar armas de fogo graças ao seu irmão que ensinou. Com o desaparecimento do Chris, ela decidiu ir até Raccoon City tentar descobrir o paradeiro de seu irmão, mas acaba se envolvendo na trágica tragédia de Raccon City junto com o Leon.
+                          </p>
+                        </div>
+                    </div>
+
+                    <!--Ada Wong-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                          Ada Wong
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-3">
+                        <div class="card card-body">
+                          <img src="img/ada-wong.webp" alt="">
+
+                          <p>
+                            A vida de Ada antes de 1998 é um mistério completo. Sua etnia e nacionalidade não são confirmadas, e quando e onde ela nasceu também são desconhecidas. Até o seu nome não se acredita ser verdadeiro. Em 1998, Ada era uma espiã corporativa trabalhando para uma concorrente sem nome da Umbrella Corporation, que pretendia obter todo tipo de armas e espécimes biológicos. Ela também era um assassina altamente treinada em combates mano-a-mano, que era proficiente com vários tipos de armas e técnicas de luta. Presumivelmente, Ada se juntou à Organização por razões pessoais, fora dos interesses de sua empresa, embora ainda não tenha revelado quais eram
+                          </p>
+                        </div>
+                    </div>
+
+                    <!--Sherry Birkin-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                            Sherry Birkin
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-4">
+                        <div class="card card-body">
+                          <img src="img/sherry-birkin.png" alt="">
+
+                          <p>
+                            Sherry Birkin é a filha única do casal de cientistas William Birkin e Annette Birkin. Ambos trabalham no Laboratório Subterrâneo de Raccoon, em projetos que Sherry desconhece, e como são profissionais muito ocupados e focados em suas carreiras, acabam negligenciando a filha. Por conta disto, Sherry é uma menina muito independente e inteligente, tendo crescido praticamente sozinha.
+                          </p>
+                        </div>
+                    </div>
+
+                    <!--Brian Irons-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                            Brian Irons
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-5">
+                        <div class="card card-body">
+                          <img src="img/irons-re2.png" alt="">
+
+                          <p>
+                            Brian Irons é o chefe do Departamento de Polícia em Raccoon City e apesar de ter poucas aparições, ele foi um grande problema durante a história da franquia por arquivar o caso da Mansão Spencer e relacionar-se, de forma corrupta, com a Umbrella.
+                          </p>
+                        </div>
+                    </div>
+
+                    <!--Mister X-->
+                    <p>
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                            Mister X
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapse-6">
+                        <div class="card card-body">
+                          <img src="img/mr-x.jpg" alt="">
+
+                          <p>
+                            O T-00 foi um Tyrant enviado para Raccoon City durante o Incidente de Destruição de Raccoon City em 1998. O T-00 foi um dos seis dentro da série T-103 que foram transportados de avião para a cidade e recebeu instruções para recuperar uma amostra do G-Virus do pingente de Sherry Birkin e matar todos os oficiais sobreviventes e civis encontrados no Departamento de Polícia de Raccoon onde começou uma caça a Leon S. Kennedy e Claire Redfield, que estavam tentando escoltar Sherry para um local seguro.
+                          </p>
+                        </div>
+                    </div>
+
+                    <h2>A história</h2>
+
+                    <img src="img/leon-claire.webp" alt="Leon Kennedy e Claire Redfield">
+                    <figcaption class="descricao-img">Reprodução: Capcom</figcaption>
+
+                    <p>
+                        O jogo se passa dois meses após os acontecimentos de Resident Evil 1, na cidade de Raccon City, localizada na região centro-oeste dos Estados Unidos. Quase todos os seus cidadãos foram transformados em zumbis por um surto do T-virus, um novo tipo de arma biológica secreta desenvolvida pela empresa farmacêutica Umbrella Corporation. Os protagonistas são Leon S. Kennedy, um policial novato em seu primeiro dia na força local, e Claire Redfield, uma estudante universitária à procura de seu irmão Chris Redfield. 
+                    </p>
+
+                    <img src="img/img-3.jpg" alt="Leon e Claire">
+                    <figcaption class="descricao-img">Reprodução: Capcom</figcaption>
+
+                    <p>
+                        Tendo acabado de chegar na cidade, os dois partem para o Departamento de Polícia de Raccoon buscando proteção contra a população mutante. No entanto, após um caminhão desgovernado atingir o carro onde estavam, eles são forçados a dividirem-se (é possível escolher jogar como Leon ou Claire). Depois do ataque de alguns zumbis, o protagonista entra na base policial. O jogador descobre que a delegacia está abandonada e a maioria dos policiais foram mortos, e que Chris deixou a cidade para investigar a sede da Umbrella na Europa. Sem nenhuma motivação para ficar ali, os dois protagonistas separam-se para procurar outros sobreviventes e fugir da cidade. Enquanto tentava achar uma rota de fuga, Claire conhece uma menina chamada Sherry, que estava fugindo de uma criatura desconhecida, e Leon se depara com Ada Wong, que afirma estar à procura de seu namorado John, um pesquisador da Umbrella.
+                    </p>
+
+                    <img src="img/irons-re2.png" alt="Brian Irons">
+                    <figcaption class="descricao-img">Reprodução: Capcom</figcaption>
+
+                    <p>
+                        Posteriormente é revelado que o oficial superior de Leon, o chefe de polícia de Raccoon City Brian Irons, havia sido subornado pela Umbrella para ocultar provas dos experimentos da empresa nos arredores da cidade. Ele também ocultou o desenvolvimento do novo G-virus, um agente capaz de causar mutações generalizadas no corpo de um ser humano e transformá-lo em uma arma biológica. Irons tenta assassinar Claire, mas é morto por um mutante no departamento de polícia. Então ela e Sherry escapam através dos esgotos e se separam. Após deixar Leon, Ada se depara com Sherry e pega um pingente de ouro que a menina deixou cair no chão enquanto fugia. Ainda nos esgotos, ela une-se novamente com Leon após ele insistir que é seu dever protegê-la. O casal encontra uma mulher de meia-idade que dispara em Ada, mas Leon acaba interceptando e levando o tiro. Ada ignora-o inconsciente e segue a mulher. Após alcançá-la, ela revela ser Annette, a mãe de Sherry e esposa de William Birkin, o cientista da Umbrella criador do G-virus. Em uma tentativa de proteger seu trabalho dos agentes especiais enviados pela sede da empresa, ele injetou-se com o vírus e se transformou em uma criatura mal formada que agora está perseguindo Sherry. Annette reconhece o pingente de sua filha e tenta recuperá-lo. A luta segue, durante a qual Annette é jogada sobre uma grade. Ada descobre que o medalhão de ouro contém uma amostra do G-virus, e mais tarde - tomada por suas emoções - retorna para Leon, cuidando de seus ferimentos.
+                    </p>
+
+                    <img src="img/leon-ada.jpg" alt="Brian Irons">
+                    <figcaption class="descricao-img">Reprodução: Capcom</figcaption>
+
+                    <p>
+                        Enquanto isso, Claire se reúne com Sherry e descobre que Birkin implantou um embrião para produzir descendentes em sua filha. As duas, junto com Leon e Ada, avançam através de uma fábrica abandonada conectada a instalação de pesquisa subterrânea secreta da Umbrella. Um ataque de Birkin deixa Ada gravemente ferida, e Leon explora o laboratório para encontrar algo para tratar seus ferimentos. Ele é interrompido por uma Annette psicótica, que lhe explica a relação de fachada de Ada com John usada apenas como um meio de obter informações sobre a empresa farmacêutica: ela é uma espiã enviada para roubar o G-virus para uma organização desconhecida. Quando Annette estava prestes a atirar em Leon, um Tyrant aparece e ela é forçada a recuar. Ada retorna para salvar Leon e derrota o Tyrant aparentemente ao custo de sua própria vida. Ela confessa seu amor pelo policial antes dele deixar seu corpo imóvel para trás. Enquanto isso, Annette tenta fugir com outra amostra do G-virus, mas é mortalmente ferida por seu marido mutado. Antes de morrer, ela diz a Claire como criar uma vacina para cessar o crescimento do embrião dentro de Sherry. Depois de preparar a cura, Leon e Claire se juntam em um trem de fuga de emergência e dão a vacina para a menina, salvando a vida dela. Birkin – agora transformado em uma grande aglomeração de carne e dentes – segue-os, mas é destruído quando um sistema de auto-destruição faz com que o trem exploda. Depois de escaparem, Leon tem a intenção de derrubar a Umbrella, enquanto Claire continua a procurar seu irmão. Fica implícito que Ada sobreviveu e acabou com o G-virus do pingente.
+                    </p>
+                </div>
+
+                <hr>
+
+                <div class="col-md-4">
+                    <h2>Conteúdo Extra</h2>
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Fatos 90.4</h3>
+                            <p class="card-text">
+                                Um site que aborda o caso da atriz Daniella Perez
+                            </p>
+                            <a href="https://luissouzadeveloper.github.io/Fatos90-4/" target="_blank" class="btn btn-dark">Acessar</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Mundo Obscuro.4</h3>
+                            <p class="card-text">
+                                Um site que aborda os casos mais sombrios do Linha Direta.
+                            </p>
+                            <a href="https://luissouzadeveloper.github.io/Mundo-Obscuro-4/" target="_blank" class="btn btn-dark">Acessar</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Planeta Gamer.1</h3>
+                            <p class="card-text">
+                                Um site que aborda alguns games mais jogados da história.
+                            </p>
+                            <a href="https://luissouzadeveloper.github.io/Planeta-Game/" target="_blank" class="btn btn-dark">Acessar</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Cine Horror</h3>
+                            <p class="card-text">
+                                Conta a história de Leatherface que foi inspirado em um serial killer dos EUA.
+                            </p>
+                            <a href="https://luissouzadeveloper.github.io/Cine-Horror-1/" target="_blank" class="btn btn-dark">Acessar</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Anime Mania</h3>
+                            <p class="card-text">
+                                Um site sobre o anime attack on titan, mais especificamente os titãs.
+                            </p>
+                            <a href="https://luissouzadeveloper.github.io/Anime-Mania/" target="_blank" class="btn btn-dark">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>PLANETA GAMER</h1>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="https://github.com/luissouzadeveloper" target="_blank" class="btn">
+                        <i class="fa-brands fa-square-github fa-xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/luis-felipe-de-oliveira-souza-4b5a29212/" target="_blank" class="btn">
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                </div>
+                <p style="text-align: center; color: #cd1b1b">
+                    Copyright &copy; 2022. Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
